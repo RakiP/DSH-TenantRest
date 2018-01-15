@@ -13,10 +13,10 @@ def pushit():
     #Push from git url to mounted disk
     job1 = '{}-pushMountedDisk'.format(topic) 
     
-    xmlPushMDisk = open(templatePushMDisk, 'r').read()  
+    xmlPushMDisk = open(templatePushMDisk, 'r').read()
     xmlPushMDisk = xmlPushMDisk.replace('GITURL', str(gitName.get())).replace('PASSWORD', str(pw.get())) \
                                 .replace('USERNAME',str(uName.get())).replace('LOCATIONMOUNTEDDISK',str(dMountedDiskHost)) \
-                                .replace('IPADDRESS', str(ipAddress))
+                                .replace('IPADDRESS', str(ipAddress)).replace('RELEASE', str(relName.get()))
     try:
         j.create_job(job1, xmlPushMDisk)
     except:
@@ -105,6 +105,13 @@ lbl4.pack(side=TOP,padx=10,pady=10)
 
 gitName = Entry(root, width=30)
 gitName.pack(side=TOP,padx=10,pady=10)
+
+lbl41 = Label(root, text='Release')
+lbl41.pack(side=TOP,padx=10,pady=10)
+
+relName = Entry(root, width=10)
+relName.pack(side=TOP,padx=10,pady=10)
+relName.insert(0, 'master')
 
 var1 = IntVar()
 chk1 = Checkbutton(root, state='active', text="Trigger from push", variable=var1)

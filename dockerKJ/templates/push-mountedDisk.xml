@@ -18,7 +18,7 @@
     </userRemoteConfigs>
     <branches>
       <hudson.plugins.git.BranchSpec>
-        <name>*/master</name>
+        <name>*/RELEASE</name>
       </hudson.plugins.git.BranchSpec>
     </branches>
     <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
@@ -33,7 +33,8 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>rsync -avz -e &quot;sshpass -p PASSWORD ssh -o StrictHostKeyChecking=no&quot; . USERNAME@IPADDRESS:LOCATIONMOUNTEDDISK</command>
+      <command>sshpass -p PASSWORD ssh -o StrictHostKeyChecking=no USERNAME@IPADDRESS rm -rf LOCATIONMOUNTEDDISK/Testcases
+        rsync -avz -e &quot;sshpass -p PASSWORD ssh -o StrictHostKeyChecking=no&quot; . USERNAME@IPADDRESS:LOCATIONMOUNTEDDISK</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
