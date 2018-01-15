@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26b578a9-32f6-46e4-9ab5-038f30634f19" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/dockerKJ/README.md" afterPath="$PROJECT_DIR$/dockerKJ/README.md" />
       <change beforePath="$PROJECT_DIR$/dockerKJ/makefile" afterPath="$PROJECT_DIR$/dockerKJ/makefile" />
-      <change beforePath="$PROJECT_DIR$/dockerRF/Testcases/kafka/kafka.robot" afterPath="$PROJECT_DIR$/dockerRF/Testcases/kafka/kafka.robot" />
+      <change beforePath="$PROJECT_DIR$/dockerRF/README.md" afterPath="$PROJECT_DIR$/dockerRF/README.md" />
       <change beforePath="$PROJECT_DIR$/dockerRF/makefile" afterPath="$PROJECT_DIR$/dockerRF/makefile" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -19,27 +20,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="kafkaConsumeRunCommand.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dockerKJ/py/kafkaConsumeRunCommand.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="makefile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dockerKJ/makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="17" />
+            <state relative-caret-position="378">
+              <caret line="21" column="134" lean-forward="false" selection-start-line="21" selection-start-column="134" selection-end-line="21" selection-end-column="134" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TenantRestConfig.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dockerKJ/py/TenantRestConfig.py">
+      <file leaf-file-name="changeme.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dockerKJ/changeme.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            <state relative-caret-position="90">
+              <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kafka.robot" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dockerRF/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="414">
+                <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inve" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dockerRF/requirements/inve">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kafka.robot" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dockerRF/Testcases/kafka/kafka.robot">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -62,33 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pushMountedDiskPipeline.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dockerKJ/pipelineJobs/pushMountedDiskPipeline.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jenkinsCreateJobs.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dockerKJ/py/jenkinsCreateJobs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1473">
-              <caret line="82" column="30" lean-forward="false" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
-              <folding>
-                <element signature="e#99#113#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="makefile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dockerRF/makefile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="21" column="132" lean-forward="false" selection-start-line="21" selection-start-column="132" selection-end-line="21" selection-end-column="132" />
+              <caret line="21" column="134" lean-forward="false" selection-start-line="21" selection-start-column="134" selection-end-line="21" selection-end-column="134" />
               <folding />
             </state>
           </provider>
@@ -104,22 +116,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dockerRF/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xmlToJson.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dockerKJ/py/xmlToJson.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dockerKJ/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="468">
+                <caret line="26" column="61" lean-forward="true" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -137,7 +142,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/dockerKJ/Dockerfile-ubtunu" />
-        <option value="$PROJECT_DIR$/dockerKJ/README.md" />
         <option value="$PROJECT_DIR$/dockerKJ/requirements/requirements.txt" />
         <option value="$PROJECT_DIR$/dockerKJ/templates/executeProduceRunCommand.xml" />
         <option value="$PROJECT_DIR$/dockerKJ/templates/push-mountedDisk.xml" />
@@ -153,15 +157,17 @@
         <option value="$PROJECT_DIR$/dockerKJ/Dockerfile" />
         <option value="$PROJECT_DIR$/dockerKJ/py/TenantRestConfig.py" />
         <option value="$PROJECT_DIR$/dockerKJ/pipelineJobs/pushMountedDiskPipeline.groovy" />
-        <option value="$PROJECT_DIR$/dockerKJ/makefile" />
-        <option value="$PROJECT_DIR$/dockerRF/makefile" />
         <option value="$PROJECT_DIR$/dockerRF/Testcases/kafka/kafka.robot" />
+        <option value="$PROJECT_DIR$/dockerKJ/makefile" />
+        <option value="$PROJECT_DIR$/dockerRF/README.md" />
+        <option value="$PROJECT_DIR$/dockerRF/makefile" />
+        <option value="$PROJECT_DIR$/dockerKJ/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="119" />
-    <option name="y" value="344" />
+    <option name="x" value="1253" />
+    <option name="y" value="377" />
     <option name="width" value="1855" />
     <option name="height" value="961" />
   </component>
@@ -522,7 +528,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="119" y="344" width="1855" height="961" extended-state="0" />
+    <frame x="1253" y="377" width="1855" height="961" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -633,14 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dockerRF/requirements/inve">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dockerKJ/requirements/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -681,29 +679,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dockerKJ/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="41" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dockerKJ/Dockerfile-ubuntu">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dockerKJ/py/kafkaConsumeRunCommand.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -716,37 +695,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dockerRF/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dockerKJ/changeme.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dockerKJ/pipelineJobs/pushMountedDiskPipeline.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dockerKJ/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -761,26 +713,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dockerKJ/py/TenantRestConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dockerKJ/py/xmlToJson.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dockerKJ/makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -793,18 +729,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dockerRF/makefile">
+    <entry file="file://$PROJECT_DIR$/dockerKJ/py/TenantRestConfig.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="132" lean-forward="false" selection-start-line="21" selection-start-column="132" selection-end-line="21" selection-end-column="132" />
+        <state relative-caret-position="306">
+          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dockerRF/changeme.sh">
+    <entry file="file://$PROJECT_DIR$/dockerRF/requirements/inve">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="396">
+          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -817,6 +753,76 @@
             <element signature="e#0#137#0" expanded="true" />
             <marker date="1515768820637" expanded="true" signature="399:425" ph="Connect to topics" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dockerRF/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="414">
+            <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dockerRF/makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="134" lean-forward="false" selection-start-line="21" selection-start-column="134" selection-end-line="21" selection-end-column="134" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dockerRF/changeme.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dockerKJ/makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="134" lean-forward="false" selection-start-line="21" selection-start-column="134" selection-end-line="21" selection-end-column="134" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dockerKJ/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dockerKJ/changeme.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dockerKJ/py/kafkaConsumeRunCommand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dockerKJ/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="468">
+            <caret line="26" column="61" lean-forward="true" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
