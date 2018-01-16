@@ -6,8 +6,9 @@ A run command is given through kafka and the testresults are also put on kafka.
 
 1. Clone repo
 2. Open changeme.sh and <br>
-- if required change the path of mountedDisk. You may also leave the default. <br>
+- If required change the path of mountedDisk. You may also leave the default. <br>
 - DO change the name of the topic to your tenant name.
+- Make sure the credentialsId matches up with the jenkins you are connecting to. (JENKINS_HOME/credentials.xml, id-tag)
 3. execute: make runonce
 4, execute: make
 5. execute: make runkafka (if no kafka was running)

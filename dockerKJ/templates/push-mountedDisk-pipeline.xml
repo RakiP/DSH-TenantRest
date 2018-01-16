@@ -13,8 +13,7 @@
 node {
     def app
 stage('clone repo') {
-       git 'GITURL'
-            sh 'echo "clone successfull"'
+       git branch: 'RELEASE', credentialsId: 'CRID', url: 'GITURL'
     }
     stage('Build image') {
         sh 'sshpass -p PASSWORD ssh -o StrictHostKeyChecking=no USERNAME@IPADDRESS rm -rf LOCATIONMOUNTEDDISK/Testcases'

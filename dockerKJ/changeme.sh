@@ -4,6 +4,7 @@
 : "${mountedDisk:="$HOME/Documents/projects/DSHTesting/mountedDisk"}"
 IP=`ifconfig | grep inet | grep -v inet6 | head -1 | awk '{print $2}' | cut -d':' -f2`
 topic='vialis'
+CREDENTIALSID='546bf002-fbb8-48e8-ba3c-8a6f10ae5f74'
 
 #CODE
 if [ ! -d "$mountedDisk" ]; then

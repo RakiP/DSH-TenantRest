@@ -16,7 +16,7 @@ def pushit():
     xmlPushMDisk = open(templatePushMDisk, 'r').read()
     xmlPushMDisk = xmlPushMDisk.replace('GITURL', str(gitName.get())).replace('PASSWORD', str(pw.get())) \
                                 .replace('USERNAME',str(uName.get())).replace('LOCATIONMOUNTEDDISK',str(dMountedDiskHost)) \
-                                .replace('IPADDRESS', str(ipAddress)).replace('RELEASE', str(relName.get()))
+                                .replace('IPADDRESS', str(ipAddress)).replace('RELEASE', str(relName.get())).replace('CRID', crId)
     try:
         j.create_job(job1, xmlPushMDisk)
     except:
