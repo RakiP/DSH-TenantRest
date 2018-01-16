@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.12.2">
+  <actions/>
+  <description>Execute produce run command pipeline</description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+      <triggers/>
+    </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.42">
+    <script>node {
+    def app
+    stage('Communicate Kafka') {
+        sh 'sshpass -p PASSWORD ssh -oStrictHostKeyChecking=no USERNAME@IPADDRESS docker run --rm -e DISPLAY=$DISPLAY  -v PATHTOMOUNTEDDISK:/py/mountedDisk -v /tmp/.X11-unix:/tmp/.X11-unix dockerkj python3 kafkaProduceRunCommand.py -r TOPIC/RUNCOMMAND'
+    }
+    }
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

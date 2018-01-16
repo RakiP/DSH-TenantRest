@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.12.2">
+  <actions/>
+  <description>Push to mountedDisk pipeline</description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+      <triggers/>
+    </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.42">
+    <script>
+node {
+    def app
+stage('clone repo') {
+       git 'GITURL'
+            sh 'echo "clone successfull"'
+    }
+    stage('Build image') {
+        sh 'sshpass -p PASSWORD ssh -o StrictHostKeyChecking=no USERNAME@IPADDRESS rm -rf LOCATIONMOUNTEDDISK/Testcases'
+        sh 'rsync -avz -e &quot;sshpass -p PASSWORD ssh -o StrictHostKeyChecking=no&quot; . USERNAME@IPADDRESS:LOCATIONMOUNTEDDISK'
+    }
+    }
+    </script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>
