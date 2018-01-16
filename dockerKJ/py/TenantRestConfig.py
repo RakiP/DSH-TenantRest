@@ -15,10 +15,9 @@ portJenkins = 8084
 portKafka = 9092
 
 ####TENANT SPECIFIC#########
-##JENKINS
-ipAddressJenkins = ipAddress
-crId = 'CREDENTIALSID' # this is the id tag of credentials.xml. This can be found in JENKINS_HOME dir.
-###
 ipAddress = 'IPADDRESS'
 topic = 'TOPIC'
 dMountedDiskHost = r"PATHTOMOUNTEDDISK"
+##JENKINS
+ipAddressJenkins = ipAddress
+crId = 'CREDENTIALSID' # this is the id tag of credentials.xml. This can be found in JENKINS_HOME dir.
