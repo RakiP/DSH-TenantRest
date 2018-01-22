@@ -3,4 +3,4 @@
 echo activating venv
 source venv/bin/activate
 echo running pybot
-pybot -d Testresults Testcases/
+pabot -d Testresults Testcases/

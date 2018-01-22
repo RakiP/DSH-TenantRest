@@ -3,3 +3,5 @@ robotframework==3.0.2
 robotframework-mqttlibrary==0.5.0
 robotframework-kafkalibrary==0.0.2
 wheel==0.24.0
+robotframework-pabot==0.43
+robotremoteserver==1.1
