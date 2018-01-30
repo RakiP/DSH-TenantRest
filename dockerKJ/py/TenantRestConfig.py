@@ -11,7 +11,7 @@ templateExecKafkaRunCommand = os.path.join(absFilePath,'templates','executeProdu
 #templatePushMDisk =  os.path.join(absFilePath,'templates','push-mountedDisk.xml')
 #templateExecKafkaRunCommand = os.path.join(absFilePath,'templates','executeProduceRunCommand.xml')
 
-portJenkins = 8084
+portJenkins = 80
 portKafka = 9092
 
 ####TENANT SPECIFIC#########

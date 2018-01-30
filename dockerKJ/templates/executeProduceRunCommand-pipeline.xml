@@ -13,12 +13,14 @@
     </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
   </properties>
   <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.42">
-    <script>node {
+    <script>stage ('Default Slave') {
+      node ('testslave') {
     def app
     stage('Communicate Kafka') {
         sh 'sshpass -p PASSWORD ssh -oStrictHostKeyChecking=no USERNAME@IPADDRESS docker run --rm -e DISPLAY=$DISPLAY  -v PATHTOMOUNTEDDISK:/py/mountedDisk -v /tmp/.X11-unix:/tmp/.X11-unix dockerkj python3 kafkaProduceRunCommand.py -r TOPIC/RUNCOMMAND'
     }
     }
+      }
 </script>
     <sandbox>true</sandbox>
   </definition>

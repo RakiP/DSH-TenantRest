@@ -9,8 +9,8 @@
     </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
   </properties>
   <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.42">
-    <script>
-node {
+    <script>stage ('Default Slave') {
+node ('testslave') {
     def app
 stage('clone repo') {
        git branch: 'RELEASE', credentialsId: 'CRID', url: 'GITURL'
@@ -20,6 +20,7 @@ stage('clone repo') {
         sh 'rsync -avz -e &quot;sshpass -p PASSWORD ssh -o StrictHostKeyChecking=no&quot; . USERNAME@IPADDRESS:LOCATIONMOUNTEDDISK'
     }
     }
+        }
     </script>
     <sandbox>true</sandbox>
   </definition>
